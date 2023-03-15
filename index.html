@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Zomato Clone</title>
 </head>
 
@@ -27,7 +28,6 @@
                 </div>
 
                 <ul> 
-                    <i class="fa fa-bars"></i>
                     <li><a href="#">Investor Relations</a></li>
                     <li><a href="#">Add restaurant</a></li>
                     <li><a href="#">Log in</a></li>
@@ -40,9 +40,18 @@
             <div class="container logo-container">
                 <img class="zomato-logo" src="Assets/zomato logo.avif" alt="zomato logo">
                 <p class="tagline">Discover the best food & drinks in Kolkata</p>
+
                 <div class="search-container">
                     <div class="detectlocation">
-                        <i class="fa-slod fa-location-dot"></i>
+                        <i class="fa-sharp fa-solid fa-location-dot location-map"></i>
+                        <input type="text" placeholder="Kolkata">
+                        <i class="fa-solid fa-caret-down up-down"></i>
+                    </div>
+
+                    <div class="line-gap"> | </div>
+                    <div class="search-item">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Search for restaurant, cuisine or a dish">
                     </div>
                 </div>
             </div>
