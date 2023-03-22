@@ -191,6 +191,12 @@ body {
     border-radius: 5px;
     overflow: hidden;
     position: relative;
+    margin-left: 0.7em;
+}
+
+.section2-item:first-child {
+    margin-top: 30px;
+    margin-left: 70px;
 }
 
 .section2-item img {
@@ -205,8 +211,11 @@ body {
     position: absolute;
     z-index: 2;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.1);
     width: 100%;
+    color: #fff;
+    text-shadow: 2px 2px 5px  rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px -0px 50px rgba(0, 0, 0, 0.1),
+    inset 0px 0px 50px rgba(0, 0, 0, 0.1);
 }
 
 .section2-bodydescription p {
@@ -216,4 +225,8 @@ body {
 
 .section2-bodydescription p:nth-child(2) {
     font-size: 18px;
+}
+
+.section2-body {
+    display: flex;
 }
